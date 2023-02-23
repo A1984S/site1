@@ -1,0 +1,222 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+i{
+
+	color: white;
+	font-size: 1.9em;
+	width: 40px;
+	height: 35px;
+	padding-top:10px ;
+	
+}				
+ .twitter:hover{
+	background-color: skyblue;
+	border-radius: 50%;
+	text-align: center;
+	
+}
+.inst:hover{
+	background-color: SlateBlue;
+	border-radius: 50%;
+	text-align: center;
+	
+}
+.git:hover{
+	background-color: darkgray;
+	border-radius: 50%;
+	text-align: center;
+}
+.lind:hover{
+	background-color: SteelBlue;
+	border-radius: 50%;
+	text-align: center;
+}
+.code:hover{
+	background-color: Black;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.container{
+	display: grid;
+	grid-template-columns:25% auto;
+	grid-auto-flow: dense;
+	height: 100vh;
+	width: 100vw;
+}
+.container .colon1{
+	background-color:darkgrey;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	
+}
+
+.colon1 h1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 48px;
+	line-height: 48px;
+	color: chartreuse;
+}
+
+.colon1 h1:hover{
+	color:#ffcb6b;
+}
+
+.colon1 .images{
+	display: flex;
+	gap :10px;
+
+}
+
+.colon1 img{
+	border-radius: 50%;
+	gap :10px;
+	font-size: 16px;
+	height: 200px;
+}
+
+.colon1 p{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.colon1 span{
+	color: chartreuse;
+}
+
+.colon2 a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: chartreuse;
+}
+.colon1 span:hover{
+	color:#ffcb6b;
+}
+
+.colon2{
+	background-color:darkslategrey;
+	padding: 20px;
+}
+
+.colon2 .lien{
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	font-size: 2em;
+	display: flex;
+	justify-content: end;
+	gap: 30px;
+	margin-right: 200px;
+
+}
+
+.Petitparagramme p{
+	font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+.colon2 .Petitparagramme{
+	margin-top: 75px;
+	text-align: center;
+
+}
+
+.Petitparagramme .ligne1{
+	font-size: 3em;
+	color:blueviolet;
+}
+.Petitparagramme span{
+	color:red;
+}
+
+.Petitparagramme .ligne2 ,.Petitparagramme .ligne3 {
+	font-size: 1.8em;
+}
+
+.Petitparagramme .ligne3{
+	color:forestgreen;
+}
+.Petitparagramme .ligne2 {
+	color: white;
+}
+
+.colon2 .colon2_content{
+	display: grid;
+	grid-template-rows: 50px  450px;
+	margin: 85px;
+	
+}
+
+.colon2 .element1{
+	background-color:cadetblue;
+	border-radius: 10px 10px 0 0;
+	display: grid;
+	grid-template-columns: 50px  auto;
+}
+.colon2 .element2{
+	background-color:gray;
+	border-radius: 0 0 10px 10px;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 15px;
+}
+
+.element1 .col1{
+	display: grid;
+	grid-template-columns: 10px 10px 10px;
+	grid-template-rows: 10px;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.element1 .bloc{
+	border-radius: 50px;
+}
+
+.element1 .bloc1{
+	background-color: red;
+}
+
+.element1 .bloc2{
+	background-color:yellow;
+}
+
+.element1 .bloc3{
+	background-color:green;
+}
+
+.element1 .col2{
+	
+	font-size: 20px;
+	color: white;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.element2 .titre{
+	color: darkslateblue;	
+	
+}
+
+.element2 span{
+	color: chartreuse;
+}
+
+.element2 p{
+	margin-left: 15px;
+}
+
+.element2 .ligne{
+	margin-left: 30px;
+}
+
+.element2 .accolade{
+	color: white;
+}
+
+.element2 .bloc{
+	margin: 15px;
+}
